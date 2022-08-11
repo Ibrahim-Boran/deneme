@@ -1,0 +1,189 @@
+[
+  {
+    "source": "^I initialize (chrome|firefox) driver$",
+    "steps": [
+      {
+        "name": "I initialize chrome driver",
+        "aggregatedDurations": {
+          "median": 6.7848129,
+          "average": 6.784812900
+        },
+        "durations": [
+          {
+            "duration": 6.7848129,
+            "location": "file:src/test/resources/features/VfOdev.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I go to \"([^\"]*)\" url$",
+    "steps": [
+      {
+        "name": "I go to \"https://www.youtube.com/\" url",
+        "aggregatedDurations": {
+          "median": 3.6030588,
+          "average": 3.603058800
+        },
+        "durations": [
+          {
+            "duration": 3.6030588,
+            "location": "file:src/test/resources/features/VfOdev.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see (.*) page$",
+    "steps": [
+      {
+        "name": "I see home page",
+        "aggregatedDurations": {
+          "median": 0.0008215,
+          "average": 0.000821500
+        },
+        "durations": [
+          {
+            "duration": 0.0008215,
+            "location": "file:src/test/resources/features/VfOdev.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )?focus (.*) element$",
+    "steps": [
+      {
+        "name": "I focus Search element",
+        "aggregatedDurations": {
+          "median": 4.272319950,
+          "average": 4.272319950
+        },
+        "durations": [
+          {
+            "duration": 4.2014154,
+            "location": "file:src/test/resources/features/VfOdev.feature:10"
+          },
+          {
+            "duration": 4.3432245,
+            "location": "file:src/test/resources/features/VfOdev.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter \"([^\"]*)\" text to (.*) text area$",
+    "steps": [
+      {
+        "name": "I enter \"Tarkan\" text to Search text area",
+        "aggregatedDurations": {
+          "median": 4.3260439,
+          "average": 4.326043900
+        },
+        "durations": [
+          {
+            "duration": 4.3260439,
+            "location": "file:src/test/resources/features/VfOdev.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "I enter \" Kış Güneşi\" text to Search text area",
+        "aggregatedDurations": {
+          "median": 4.3047517,
+          "average": 4.304751700
+        },
+        "durations": [
+          {
+            "duration": 4.3047517,
+            "location": "file:src/test/resources/features/VfOdev.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click \"([^\"]*)\" keyboard button$",
+    "steps": [
+      {
+        "name": "I click \"ENTER\" keyboard button",
+        "aggregatedDurations": {
+          "median": 0.1375165,
+          "average": 0.137516500
+        },
+        "durations": [
+          {
+            "duration": 0.1375165,
+            "location": "file:src/test/resources/features/VfOdev.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )?click element: (\\w+(?: \\w+)*) index: (\\d+)$",
+    "steps": [
+      {
+        "name": "I click element: Music index: 1",
+        "aggregatedDurations": {
+          "median": 0.1255492,
+          "average": 0.125549200
+        },
+        "durations": [
+          {
+            "duration": 0.1255492,
+            "location": "file:src/test/resources/features/VfOdev.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "I click element: Explore index: 1",
+        "aggregatedDurations": {
+          "median": 0.1206219,
+          "average": 0.120621900
+        },
+        "durations": [
+          {
+            "duration": 0.1206219,
+            "location": "file:src/test/resources/features/VfOdev.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I click element: Home index: 1",
+        "aggregatedDurations": {
+          "median": 0.0942871,
+          "average": 0.094287100
+        },
+        "durations": [
+          {
+            "duration": 0.0942871,
+            "location": "file:src/test/resources/features/VfOdev.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )?wait for (\\d+) seconds?$",
+    "steps": [
+      {
+        "name": "I wait for 5 seconds",
+        "aggregatedDurations": {
+          "median": 5.0088993,
+          "average": 5.008899300
+        },
+        "durations": [
+          {
+            "duration": 5.0088993,
+            "location": "file:src/test/resources/features/VfOdev.feature:18"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="34.126888">
+    <testcase classname="Youtube" name="YouTubeTest" time="34.126888">
+        <system-out>
+            <![CDATA[Given I initialize chrome driver............................................passed
+When I go to "https://www.youtube.com/" url.................................passed
+Then I see home page........................................................passed
+When I focus Search element.................................................passed
+When I enter "Tarkan" text to Search text area..............................passed
+Then I click "ENTER" keyboard button........................................passed
+Then I click element: Music index: 1........................................passed
+Then I click element: Explore index: 1......................................passed
+Then I click element: Home index: 1.........................................passed
+When I focus Search element.................................................passed
+When I enter " Kış Güneşi" text to Search text area.........................passed
+And I wait for 5 seconds....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

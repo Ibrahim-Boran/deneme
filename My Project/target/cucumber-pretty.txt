@@ -1,0 +1,18 @@
+Feature: Youtube
+
+  Background:                                   [90m# src/test/resources/features/VfOdev.feature:3[0m
+    [32mGiven [0m[32mI initialize [0m[32m[1mchrome[0m[32m driver[0m            [90m# MySteps.initializeChromeDriver(String)[0m
+    [32mWhen [0m[32mI go to "[0m[32m[1mhttps://www.youtube.com/[0m[32m" url[0m [90m# MySteps.gotoURL(String)[0m
+    [32mThen [0m[32mI see [0m[32m[1mhome[0m[32m page[0m                        [90m# MySteps.seePage(String)[0m
+
+  @Deneme
+  Scenario: YouTubeTest                                 [90m# src/test/resources/features/VfOdev.feature:9[0m
+    [32mWhen [0m[32mI focus [0m[32m[1mSearch[0m[32m element[0m                         [90m# MySteps.mouseHover(String)[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mTarkan[0m[32m" text to [0m[32m[1mSearch[0m[32m text area[0m      [90m# MySteps.enterText(String,String)[0m
+    [32mThen [0m[32mI click "[0m[32m[1mENTER[0m[32m" keyboard button[0m                [90m# MySteps.clickKeyboard(String)[0m
+    [32mThen [0m[32mI click element: [0m[32m[1mMusic[0m[32m index: [0m[32m[1m1[0m                [90m# MySteps.clickElement(String,int)[0m
+    [32mThen [0m[32mI click element: [0m[32m[1mExplore[0m[32m index: [0m[32m[1m1[0m              [90m# MySteps.clickElement(String,int)[0m
+    [32mThen [0m[32mI click element: [0m[32m[1mHome[0m[32m index: [0m[32m[1m1[0m                 [90m# MySteps.clickElement(String,int)[0m
+    [32mWhen [0m[32mI focus [0m[32m[1mSearch[0m[32m element[0m                         [90m# MySteps.mouseHover(String)[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1m Kış Güneşi[0m[32m" text to [0m[32m[1mSearch[0m[32m text area[0m [90m# MySteps.enterText(String,String)[0m
+    [32mAnd [0m[32mI wait for [0m[32m[1m5[0m[32m seconds[0m                            [90m# MySteps.waitForNSeconds(int)[0m

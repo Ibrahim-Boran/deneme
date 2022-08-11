@@ -1,0 +1,296 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6784812900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I initialize chrome driver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 13
+                }
+              ],
+              "location": "MySteps.initializeChromeDriver(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3603058800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to \"https://www.youtube.com/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.youtube.com/",
+                  "offset": 9
+                }
+              ],
+              "location": "MySteps.gotoURL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 821500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 6
+                }
+              ],
+              "location": "MySteps.seePage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T19:23:21.420Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4684200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MySteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "YouTubeTest",
+        "description": "",
+        "id": "youtube;youtubetest",
+        "after": [
+          {
+            "result": {
+              "duration": 1008243000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MySteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4201415400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I focus Search element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 8
+                }
+              ],
+              "location": "MySteps.mouseHover(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4326043900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter \"Tarkan\" text to Search text area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tarkan",
+                  "offset": 9
+                },
+                {
+                  "val": "Search",
+                  "offset": 25
+                }
+              ],
+              "location": "MySteps.enterText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137516500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click \"ENTER\" keyboard button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ENTER",
+                  "offset": 9
+                }
+              ],
+              "location": "MySteps.clickKeyboard(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125549200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click element: Music index: 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Music",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "MySteps.clickElement(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120621900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click element: Explore index: 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Explore",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 32
+                }
+              ],
+              "location": "MySteps.clickElement(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94287100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click element: Home index: 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 29
+                }
+              ],
+              "location": "MySteps.clickElement(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4343224500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I focus Search element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 8
+                }
+              ],
+              "location": "MySteps.mouseHover(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4304751700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter \" Kış Güneşi\" text to Search text area",
+            "match": {
+              "arguments": [
+                {
+                  "val": " Kış Güneşi",
+                  "offset": 9
+                },
+                {
+                  "val": "Search",
+                  "offset": 30
+                }
+              ],
+              "location": "MySteps.enterText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5008899300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "MySteps.waitForNSeconds(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Deneme"
+          }
+        ]
+      }
+    ],
+    "name": "Youtube",
+    "description": "",
+    "id": "youtube",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/VfOdev.feature",
+    "tags": []
+  }
+]
