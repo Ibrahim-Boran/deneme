@@ -1,0 +1,238 @@
+
+
+# Select book a flight
+* Click element by "bookaflight"
+
+# Select one way
+* Click element by "oneWay"
+
+# Select round trip
+* Click element by "roundtrip"
+
+# Select from <port> port
+* Click element by "from"
+* Wait "5" seconds
+* Find element by "portSearchTextInput" and send keys <port>
+* Click element by "portListItem"
+
+# Select to <port> port
+* Wait "5" seconds
+* Find element by "portSearchTextInput" and send keys <port>
+* Click element by "portListItem"
+
+# Click departure
+* Click element by "departure"
+
+# Click date ok button
+* Click element by "datePageOKBtn"
+
+# Select economy
+* Click element by "economy"
+
+# Click book now button
+* Find element by "bookNowBtn"  swipe and click
+
+# Click continue button
+* Click element by "bookingContinueBtn"
+* Wait "5" seconds
+
+# Select male
+* Click element by "male"
+
+# Select female
+* Click element by "female"
+
+# Click title
+* Wait "1" seconds
+* Click element by "title"
+
+# Select mister title
+* Click element by "selectMR"
+
+# Select miss title
+* Click element by "selectMRS"
+
+# Write <text> to <field> field
+* Find element by <field> and send keys <text>
+
+# Select departure flight date
+* Click departure
+* Wait "5" seconds
+* Select departure date
+* Click date ok button
+
+# Select departure and return flight date
+* Click departure
+* Select departure and return date
+* Click date ok button
+
+//# Select birhdate
+//* Click element by "dateOfBirth"
+//* Click element by "selectBirthDateYear"
+//* Click element by "selectBirthDateYear"
+//* Click element by "selectDatePopupOkBtn"
+//* Wait "5" seconds
+//* swipe et
+//* swipe et
+//* Wait "5" seconds
+
+//# Select child or infant birhdate
+//* Click element by "dateOfBirth"
+//* Click element by "birthDateYearSelect"
+//* Click element by "birthDateYearSelect2"
+//* Click element by "selectDatePopupOkBtn"
+//* Wait "3" seconds
+
+# DOM> Write country: <country> and national id number: <idnumber>
+* swipe et Two
+* Click nationality, write <country> and select that
+* swipe et Two
+* Write <idnumber> to "nationalIdNumberTextInput" field
+* swipe et
+
+# INT> Write country : <country> , passport number: <passportN> and issue country: <issueCountry>
+* Click nationality, write <country> and select that
+* Wait "5" seconds
+* swipe et
+* swipe et
+* Find element by "passportNumber" and send keys <passportN>
+* swipe et
+* Click element by "issueCountry"
+* Write <issueCountry> to "countrySearchTextInput" field
+* Click element by "countrySelectItem"
+* swipe et
+* swipe et
+* Wait "3" seconds
+* Click element by "passportExpireDate"
+* Click element by "birthDateYearSelect"
+* Click element by "selectDatePopupOkBtn"
+* Wait "5" seconds
+* swipe et
+
+# Write contact phone: <phone> and email: <email>
+* Write <phone> to "contactPhone" field
+//* Click element by "contactPhone"
+//* Write contact phone with keyboard
+close keyboard          ---> Localde burası patlıyor ama testinium.io böyle çalışıyor.
+* Write <email> to "contactEmail" field
+
+# Click nationality, write <country> and select that
+* Wait "5" seconds
+* Click element by "nationality"
+* Write <country> to "countrySearchTextInput" field
+* Click element by "countrySelectItem"
+* Wait "5" seconds
+
+# Credit card; write name: <name> and write card number
+* Write <name> to "cardHolderName" field
+* Wait "5" seconds
+* Click element by "cardNumber"
+* write credit card number
+Write "4444333322221111" to "cardNumber" field
+
+# Credit card; write name: <name> and write card number Two
+* Write <name> to "cardHolderName" field
+* Wait "5" seconds
+* Click element by "cardNumber"
+* write credit card number Two
+Write "4444333322221111" to "cardNumber" field
+* swipe et Two
+
+//# Credit card; select expire date
+//* Click element by "expireDate"
+//* Click element by "expireDateMonth"
+//* Click element by "expireDateYear"
+//* Click element by "selectDatePopupOkBtn"
+//* Wait "5" seconds
+
+# Credit card; write ccv number: <ccv> and payment address: <address>
+* Wait "3" seconds
+* Find element by "cardCCVNumber" and send keys "358"
+Click element by "cardCCVNumber"
+Write ccv number
+* Wait "3" seconds
+close keyboard
+* swipe et Two
+* swipe et Two
+* Write <address> to "paymentAddress" field
+
+
+# Payment; write country: <country> , city: <city> and postal code: <postalcode>
+* Click element by "paymentCountry"
+* Write <country> to "countrySearchTextInput" field
+* Click element by "countrySelectItem"
+* Wait "5" seconds
+* swipe et
+* Write <city> to "paymentCity" field
+* Write <postalcode> to "paymentPostalCode" field
+
+# Rule accept checkbox clicked
+* Click element by "acceptedCheckbox"
+
+# Buy ticket clicked
+* Click element by "buyTicketBtn"
+* Wait "20" seconds
+
+# Submit clicked
+* 3d payment Submit button clicked
+* Wait "15" seconds
+
+# PNR displayed and test scenario done
+* "pnr" element is displayed
+
+# Child and infant passenger count increased
+* Click element by "passengerCount"
+* Click element by "childPassengerCountPlus"
+* Click element by "infantPassengerCountPlus"
+* Click element by "countAreaCloseOkBtn"
+
+# Select until the flight finds an empty job android
+* Check for flights android "NO FLIGHT" "selectFlight" "singleEmptyFlightSearch"
+
+# Seat Selection Continue Button Android 2
+* Wait "10" seconds
+* Click element by "bookingContinueBtn"
+* Wait "30" seconds
+* Click element by "bookingContinueBtn"
+
+# Seat Selection Continue Button Android 4
+* Wait "10" seconds
+* Click element by "bookingContinueBtn"
+* Wait "10" seconds
+* Click element by "bookingContinueBtn"
+* Wait "30" seconds
+* Click element by "bookingContinueBtn"
+* Wait "30" seconds
+* Click element by "bookingContinueBtn"
+
+# Seat Selection Continue Button Android 6
+* Wait "10" seconds
+* Click element by "bookingContinueBtn"
+* Wait "10" seconds
+* Click element by "bookingContinueBtn"
+* Wait "10" seconds
+* Click element by "bookingContinueBtn"
+* Wait "20" seconds
+* Click element by "bookingContinueBtn"
+* Wait "30" seconds
+* Click element by "bookingContinueBtn"
+* Wait "30" seconds
+* Click element by "bookingContinueBtn"
+
+# Seat Selection Continue Button Android 8
+* Wait "10" seconds
+* Click element by "bookingContinueBtn"
+* Wait "10" seconds
+* Click element by "bookingContinueBtn"
+* Wait "10" seconds
+* Click element by "bookingContinueBtn"
+* Wait "10" seconds
+* Click element by "bookingContinueBtn"
+* Wait "30" seconds
+* Click element by "bookingContinueBtn"
+* Wait "30" seconds
+* Click element by "bookingContinueBtn"
+* Wait "30" seconds
+* Click element by "bookingContinueBtn"
+* Wait "30" seconds
+* Click element by "bookingContinueBtn"
