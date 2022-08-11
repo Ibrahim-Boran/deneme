@@ -1,0 +1,10 @@
+drivers\strategies\Chrome.class
+utils\Constants.class
+utils\ConfigurationProperties.class
+pages\HomePage.class
+utils\FrameworkProperties.class
+drivers\strategies\DriverStrategy.class
+drivers\strategies\Firefox.class
+drivers\strategies\DriverStrategyImplementer.class
+pages\SearchPage.class
+drivers\DriverSingleton.class
